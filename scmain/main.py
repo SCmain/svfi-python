@@ -2,9 +2,9 @@ import threading
 import signal
 import sys
 from time import sleep
-from modules.sck import TRUE, FALSE, SUCCESS
-from modules.scstat import SSSetStatusWord, SSReadStatusBits
-from modules.ro import ROCheckLimitSwitches
+from controller.sck import TRUE, FALSE, SUCCESS
+from controller.scstat import SSSetStatusWord, SSReadStatusBits
+from controller.ro import ROCheckLimitSwitches
 
 # Global variables
 giNumOfAxes = 0
